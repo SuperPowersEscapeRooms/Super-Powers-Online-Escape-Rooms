@@ -1,0 +1,31 @@
+h1 {
+    text-align:center;
+    font-family: serif;
+    font-size: 2em;
+    text-color: rgb(48, 24, 22)
+}
+
+body {
+    background-color: antiquewhite;
+    font-size:17px;
+}
+p {
+    font-family: serif;
+    font-size: 17px;
+}
+img {
+    width: 100%;
+}
+#note-couch {
+    width: 25%;
+}
+#img-present-gift-tag {
+    width: 50%;
+}
+#star-img-1 {
+    width: 50%;
+}
+.end-images {
+    grid-template-columns: 1fr, 1fr;
+    grid-column-gap: 20px;
+}

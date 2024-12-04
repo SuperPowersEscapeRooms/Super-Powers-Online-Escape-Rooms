@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The window</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function checkCode() {
+            const inputCode = document.getElementById("codeInput").value;
+            const correctCode = "3894"; // Your correct code here
+            if (inputCode === correctCode) {
+                document.getElementById("secretLink").style.display = "block";
+            } else {
+                alert("Incorrect code. Please try again.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <h2>Enter the code to reveal the link:</h2>
+    <input type="text" id="codeInput" placeholder="Enter 4 digit code here">
+    <button onclick="checkCode()">Submit</button>
+    <br><br>
+    <a id="secretLink" href="Escaped-congrats.html" style="display:none;">Escape</a>
+</body>
+</html>
